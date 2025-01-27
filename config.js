@@ -21,7 +21,7 @@ module.exports = {
 
     presenceStatus: process.env.PRESENCE_STATUS || "available", // Bot presence status
 
-    autoRead: process.env.AUTO_READ === "true", // Auto-read messages (true or false)
+    autoRead: process.env.AUTO_READ === "false", // Auto-read messages (true or false)
 
     autoViewStatus: process.env.AUTO_VIEW_STATUS === "false", // Auto-view statuses (true or false)
 
